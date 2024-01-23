@@ -1,0 +1,21 @@
+body {
+    padding: 4px 4%;
+}
+
+
+li{
+    padding-bottom: 12px;
+}
+
+.break {
+    margin-bottom: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.bold {
+    padding-bottom: 8px;
+}
