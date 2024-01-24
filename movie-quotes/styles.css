@@ -1,0 +1,14 @@
+body {
+    padding: 4px 4%;
+    background-color: #1f1f1f;
+    color: #e6e6e6;
+    font-family: Tahoma, sans-serif;
+}
+
+.quote-block {
+    padding-bottom: 8px;
+}
+
+h1, h2, h3 {
+    color:#74c274;
+}
