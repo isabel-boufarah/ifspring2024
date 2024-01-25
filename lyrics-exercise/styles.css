@@ -1,0 +1,33 @@
+body {
+    /* margin-left: 8%; */
+    font-family: Verdana, sans-serif;
+    margin: 0px;
+}
+
+.stanza {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    line-height: 24px;
+}
+
+.songIntro {
+    display: flex;
+    margin-bottom: 24px;
+    font-family: Garamond, serif;
+    background-color: #59688E;
+    color: #E8E6E2;
+    padding: 40px 70px;
+}
+
+.songIntroAlbum {
+    margin-right: 24px;
+}
+
+.lyrics {
+    padding-left: 70px;
+}
+
+.label {
+    color: gray;
+}
