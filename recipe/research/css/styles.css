@@ -1,0 +1,15 @@
+body {
+    padding: 8px 12%;
+}
+
+.images > img {
+    width: 25%;
+}
+
+.images {
+    display:flex;
+}
+
+ol li {
+    padding-bottom: 12px;
+}
