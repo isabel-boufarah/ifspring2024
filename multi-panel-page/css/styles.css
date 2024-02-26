@@ -1,0 +1,119 @@
+body {
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+h1 {
+    font-size:80px;
+    margin: 0;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 0px;
+}
+
+h4 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.column_container {
+    margin: auto;
+    width: 960px;
+}
+
+header {
+    background-image: url(../cover.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+.section2 {
+    background-color: #91dd95;
+}
+
+header .column_container {
+    padding: 166px 0 184px 0;
+    text-align: center;
+    /*size image 1920 wide (HD width), background-size: cover, background-position: center*/
+}
+
+.float {
+    float: right;
+    margin: 0 0 19px 39px;
+}
+
+.column_container h3 {
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 34px;
+}
+
+section .column_container {
+    padding: 39px 0;
+}
+
+.column_container p {
+    margin: 0;
+    font-size: 18px;
+    padding-bottom: 16px;
+    line-height: 1.4;
+}
+
+.gallery {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery li {
+    display: block;
+    display: flex;
+    width: 50%;
+    margin-bottom: 24px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 12px;
+}
+
+.gallery p {
+    padding: 0;
+    margin-top: 6px;
+    padding-right: 21px;
+}
+
+.section4 p{
+    text-align: center;
+    font-size: 26px;
+    padding-left: 122px;
+    padding-right: 122px;
+}
+
+.section4 div {
+    padding-bottom: 82px;
+}
+
+footer .column_container {
+    font-size: 18px;
+    padding-top: 41px;
+}
+
+.section3 {
+    background-color: #d2ccb6;
+}
+
+.section4 {
+    background-color: #91dd95;
+}
+
+footer {
+    background-color: white;
+}
