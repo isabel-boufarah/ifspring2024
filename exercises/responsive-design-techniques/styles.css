@@ -1,0 +1,65 @@
+body {
+    max-width: 800px;
+    width: 90%;
+    margin: auto;
+}
+
+.grid-responsive li {
+    display: block;
+    width: 100%;
+}
+
+@media (min-width: 480px){
+    .grid-responsive li{
+        width: 50%;
+    }
+}
+
+@media(min-width: 640px){
+    body {
+        background-color:  #eaf6ff ;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .grid-responsive li{
+        width: 25%;
+    }
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid li{
+    display: block;
+    font-size: 0.8rem;
+}
+
+.grid {
+    padding-left: 0;
+}
+
+.grid aside {
+    width: 170px;
+    margin: 10px;
+}
+
+.grid-responsive aside {
+    margin: 10px;
+}
+
+.grid-responsive{
+    margin: 1rem -10px;
+    padding-left: 0;
+}
+
