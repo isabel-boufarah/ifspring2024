@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    font-family: "Merriweather", serif;
+}
+
+.main-column {
+    margin: auto;
+    width: 85%;
+    max-width: 90rem;
+}
+
+header {
+    background-image: url("../images/header.jpeg");
+    background-size: cover;
+    margin-bottom: 2%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 4rem;
+}
+
+header .main-column {
+    padding: 200px 0;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    grid-template-areas: "inner-div";
+}
+
+header .main-column > div {
+    grid-area: inner-div;
+}
+
+header .main-column > div:nth-of-type(2){
+    z-index: 1;
+}
+
+
+.text-blur {
+    background-color: rgba(255,255,255,0.4);
+    filter:blur(10px);
+    color:rgba(0,0,0,0);
+}
+
+.text-blur:first-of-type {
+    display: inline-block;
+    background-color: rgba(255,255,255,0.3);
+}
+
+#main-section .main-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#main-section .main-column .left-column {
+    width: 30%;
+    li {
+        margin-bottom: 0.2em;
+    }
+}
+
+#main-section .main-column .right-column {
+    width: 67%;
+    line-height: 1.5em;
+    li {
+        margin-bottom: 0.5em;
+    }
+    img {
+        margin: 2% auto;
+        
+    }
+}
+
+#pie-crust {
+    width:40%;
+    display: block;
+}
+
+.lattice {
+    width: 100%;
+    display: flex;
+
+    img{
+        width:30%;
+    }
+}
+
+#ice-cream{
+    display: block;
+    width: 80%;
+    margin: 2rem auto;
+    max-width: 600px;
+}
+
+#quick-facts {
+    background-color: #aacdd0;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border-radius: 4px;
+}
+
+@media (max-width: 426px) {
+    header .main-column {
+        padding: 140px 0;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header h2 {
+        font-size: 1.25rem;
+    }
+
+    #main-section .main-column .left-column,
+    #main-section .main-column .right-column
+    {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 769px) {
+    header h1 {
+        font-size: 3rem;
+    }
+
+    .lattice {
+        flex-direction: column;
+
+        img {
+            width: 80%;
+        }
+    }
+
+    #pie-crust {
+        width: 80%;
+    }
+}
+
+footer {
+    margin-top: 5rem;
+    background-color: #aacdd0;
+}
+
+footer > div {
+    padding: 20px 0;
+    margin-left: 7.5%;
+}
+
+footer p {
+    margin: 0.3em;
+}
+
+footer .smaller {
+    font-size: 0.9em;
+}
