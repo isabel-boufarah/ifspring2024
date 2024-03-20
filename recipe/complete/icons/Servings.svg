@@ -1,0 +1,18 @@
+<svg width="28" height="28" viewBox="0 0 23 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="8.66019" cy="9.6602" r="5.43958" transform="rotate(-7.45686 8.66019 9.6602)" stroke="black"/>
+<path d="M15.7165 26C16.394 23 16.2856 17 10.4323 17C4.57908 17 7.89591 17 8.30238 17" stroke="black"/>
+<path d="M1.2835 26C0.606044 23 0.714438 17 6.56768 17C12.4209 17 9.10409 17 8.69762 17" stroke="black"/>
+<path d="M22.7165 25C23.394 22 23.2856 16 17.4323 16C11.5791 16 14.8959 16 15.3024 16" stroke="black"/>
+<mask id="mask0_8_38" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="10" y="15" width="9" height="2">
+<rect x="10" y="15" width="9" height="2" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_8_38)">
+<path d="M8.2835 25C7.60604 22 7.71444 16 13.5677 16C19.4209 16 16.1041 16 15.6976 16" stroke="black"/>
+</g>
+<mask id="mask1_8_38" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="10" y="0" width="14" height="17">
+<path d="M14 7L10 3.5L10.5 0L22.5 1.5L24 16.5L11.5 14.5L14 11.5V7Z" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask1_8_38)">
+<circle cx="15.6602" cy="8.6602" r="5.43958" transform="rotate(-7.45686 15.6602 8.6602)" stroke="black"/>
+</g>
+</svg>

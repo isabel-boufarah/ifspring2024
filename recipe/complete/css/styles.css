@@ -56,8 +56,23 @@ header .main-column > div:nth-of-type(2){
 
 #main-section .main-column .left-column {
     width: 30%;
+}
+
+@counter-style ingredients {
+    system: fixed;
+    symbols: "8" "½" "3" "½" "½" "¼" "1";
+    suffix: "   ";
+}
+
+/*ingredients list*/
+#main-section .main-column .left-column ul:nth-of-type(2) {
     li {
-        margin-bottom: 0.2em;
+        margin-bottom: 0.6em;
+    }
+    list-style: ingredients;
+    li::marker {
+        color:#086f78;
+        font-weight: 900;
     }
 }
 
@@ -96,9 +111,21 @@ header .main-column > div:nth-of-type(2){
 
 #quick-facts {
     background-color: #aacdd0;
-    padding-top: 4%;
-    padding-bottom: 4%;
+    padding: 4% 4%;
     border-radius: 4px;
+    list-style: none;
+    img {
+        margin-bottom: -8px;
+        margin-right: 4px;
+    }
+    ul {
+        list-style: none;
+        line-height: 1.5em;
+    }
+}
+
+#quick-facts > li {
+    line-height: 1.7rem;
 }
 
 @media (max-width: 426px) {
@@ -137,6 +164,12 @@ header .main-column > div:nth-of-type(2){
 
     #pie-crust {
         width: 80%;
+    }
+}
+
+@media (max-width: 769px) and (min-width: 424px) {
+    #quick-facts {
+        padding-right: 30px;
     }
 }
 
