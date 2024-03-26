@@ -1,0 +1,271 @@
+a#btn_nike{
+    margin: auto;
+    transition: all 0.2s;
+}
+
+#nike-container {
+    display: flex;
+}
+
+a#btn_nike:hover {
+    transform: scale(1.6);
+}
+
+a#btn_moo {
+    color: white;
+    transition: all 0.3s;
+}
+
+a#btn_moo:hover {
+    color: #008856;
+}
+
+/*all button containers flexbox*/
+.button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+a#btn_ibm {
+    text-decoration: none;
+}
+
+#ibm_container {
+    display: flex;
+}
+a#btn_ibm svg {
+    display: block;
+}
+a#btn_ibm svg:nth-of-type(2){
+    transition: all 0.5s;
+}
+.button_container >a#btn_ibm:hover svg:nth-of-type(2) {
+    /*use transform: rotate as keyframs to animate*/
+    /* transform-origin: center bottom;
+    animation-name: bee-buzz;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    /*  active doesn't work when there is an animation */
+    transform: rotate(90deg);
+}
+
+@keyframes bee-buzz {
+    from { transform: rotate(-7deg); }
+    33% { transform: rotate(4deg); }
+    66% { transform: rotate(-4deg); }
+    to { transform: rotate(7deg); }
+}
+
+.button_container > a#btn_ibm:active svg:nth-of-type(2) {
+    transform: rotate(-15deg) translate(60px, -100px);
+}
+
+/*can change stroke color with path{ stroke:red} , but need to do it on path not svg*/
+#btn_cn svg > *{
+    transition: all 0.3s;
+}
+
+
+/*white to black*/
+#btn_cn:hover svg rect:last-of-type,
+#btn_cn:hover svg path:last-of-type {
+    fill: black;
+}
+
+/*black to white*/
+#btn_cn:hover svg rect:first-of-type,
+#btn_cn:hover svg path:first-of-type,
+#btn_cn:hover svg circle {
+    fill: white;
+}
+
+/* for ideo can make viewbox bigger so it doesn't get cut off*/
+/*    transform: rotate(180deg);
+    transform-origin: center; on each path*/
+
+#btn_ideo svg{
+    overflow: visible;
+}
+
+#btn_ideo svg path {
+    transition: all 0.5s;
+}
+
+#btn_ideo svg path:last-of-type {
+    transition-delay: 0.2s;
+}
+
+#btn_ideo:hover svg path {
+    transform: rotate(180deg);
+    transform-origin: center;
+}
+
+/*transition delay on one of the circles*/
+
+#btn_lyft {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FF00BF;
+    border: 2px solid #FF00BF;
+    padding: 10px 40px;
+    border-radius: 10%;
+
+    background: linear-gradient(to right, #FF00BF 50%, white 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+
+#btn_lyft:hover {
+    background-position: left;
+    color: white;
+}
+
+#comment {
+    position: absolute;
+    bottom: 8px;
+}
+
+#btn_oldNavy {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Figtree", sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 15px 30px;
+    border-radius: 55%;
+    background-color:  #163e69;
+    color: white;
+}
+
+#btn_oldNavy:hover {
+    background-color: white;
+    color: #163e69;
+    border: #163e69 2px solid;
+}
+
+#btn_fitbit {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: #002a3a;
+    font-size: 24px;
+    border: solid #002a3a 2px;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d5e4df;
+
+    transition: all ease-out 0.6s;
+}
+
+#btn_fitbit:hover {
+    transform: rotate(360deg);
+    font-size: 30px;
+}
+
+#btn_colorRun {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    left: -67px;
+
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 32px;
+    line-height: 27px;
+}
+
+#btn_colorRun:hover span:nth-of-type(1),
+#btn_colorRun:hover span:nth-of-type(3){
+    transform: translate(154px);
+}
+
+#btn_colorRun:hover span:nth-of-type(2) {
+    transform: translate(131px);
+}
+
+#btn_colorRun span:nth-of-type(2) {
+    transition: all 0.3s;
+}
+
+#btn_colorRun span:nth-of-type(1) {
+    transition: all 0.5s;
+}
+
+#btn_colorRun span:nth-of-type(3) {
+    transition: all 0.7s;
+}
+
+#btn_npr {
+    text-decoration: none;
+    color: white;
+    font-family: 'Public sans', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    display: flex;
+}
+
+
+#btn_npr span {
+    width: 45px;
+    height: 45px;
+}
+
+#btn_npr span:first-of-type {
+    background-color: #d62021;
+}
+
+#btn_npr span:nth-of-type(2) {
+    background-color: #000005;
+}
+
+#btn_npr span:last-of-type {
+    background-color: #237bbd;
+}
+
+@keyframes r {
+    from { background-color: #d62021; }
+    50% { background-color: #000005; }
+    to { background-color: #237bbd; }
+}
+
+@keyframes n {
+    from { background-color: #000005; }
+    50% { background-color: #237bbd;}
+    to { background-color: #d62021;}
+}
+
+@keyframes p {
+    from { background-color: #237bbd; }
+    50% { background-color:#d62021; }
+    to { background-color: #000005; }
+}
+
+#btn_npr:hover span:first-of-type {
+    animation: n 1s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+
+#btn_npr:hover span:nth-of-type(3) {
+    animation: r 1s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+
+#btn_npr:hover span:nth-of-type(2) {
+    animation: p 1s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
