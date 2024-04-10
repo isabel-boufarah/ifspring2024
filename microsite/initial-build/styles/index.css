@@ -1,0 +1,12 @@
+.bg-image {
+    background-image: url(../images/ldr-home.jpg);
+    height: 544px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.normal-img {
+    width: 100%;
+    margin-bottom: 40px;
+}
