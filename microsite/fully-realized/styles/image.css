@@ -1,0 +1,13 @@
+h1 {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    margin: 0;
+    z-index: -1;
+}
+
+@media (max-width: 860px) {
+    .header {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+}

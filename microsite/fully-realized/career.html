@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Bebas+Neue&family=Figtree:ital,wght@0,300..900;1,300..900&family=Jomhuria&family=Jost:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Bebas+Neue&family=Figtree:ital,wght@0,300..900;1,300..900&family=Jomhuria&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="javascript/nav-bar.js"></script>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/career.css">
+
+    <!-- <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.scss"/> -->
+    <!-- <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/> -->
+    <!-- Add the new slick-theme.css if you want the default styling -->
+    <!-- <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script> -->
+
+    <script>
+        $(function(){
+            $('a').each(function(){
+                if ($(this).prop('href') == window.location.href) {
+                    $(this).addClass('current');
+                }
+            });
+        });
+    </script>
+    <!-- <style>
+        .single-item img {
+            width: 100%;
+            padding-left: 20px;
+        }
+
+        .single-item {
+            width: 80%;
+        }
+    </style> -->
+</head>
+<body>
+    <nav></nav>
+    <section>
+        <div class="main-column">
+            <h1>Career</h1>
+        </div>
+    </section>
+    <section>
+        <div class="main-column">
+            <div class="albums">
+                <div class="album-flex">
+                    <img src="images/ldr-career2.png">
+                    <div>
+                        <span class="title">Lana Del Rey (Debut Album)</span>
+                        <span>2010</span>
+                        <audio controls>
+                            <source src="" type="audio/mpeg">
+                            Audio not supported
+                        </audio>
+                    </div>
+                </div>
+                <div class="album-flex">
+                    <img src="images/ladr-career3.png">
+                    <div>
+                        <span class="title">Born To Die</span>
+                        <span>2012</span>
+                        <audio controls>
+                            <source src="" type="audio/mpeg">
+                            Audio not supported
+                        </audio>
+                    </div>
+                </div>
+                <!-- <div class="album-flex">
+                    <img src="images/ldr-career4.png">
+                    <div>
+                        <span class="title">Paradise</span>
+                        <span>2012</span>
+                        <span>EP</span>
+                        <audio controls>
+                            <source src="" type="audio/mpeg">
+                            Audio not supported
+                        </audio>
+                    </div>
+                </div> -->
+                <div class="album-flex">
+                    <img src="images/ldr-career5.jpg">
+                    <div>
+                        <span class="title">Ultraviolence</span>
+                        <span>2014</span>
+                        <audio controls>
+                            <source src="" type="audio/mpeg">
+                            Audio not supported
+                        </audio>
+                    </div>
+                </div>
+                <!-- <div>Honeymoon</div>
+                <div>Lust For Life</div>
+                <div>Norman Fucking Rockwell!</div>
+                <div>Violet Bent Backwards over the Grass</div>
+                <div>Chemtrails over the Country Club</div>
+                <div>Blue Banisters</div>
+                <div>Did You Know That There's a Tunnel Under Ocean Blvd</div>
+                <div>Lasso</div> -->
+            </div>
+        </div>
+    </section>
+    
+<!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script> -->
+<!-- 
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('.single-item').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            dots: true,
+            //centerMode: true,
+            //focusOnSelect: true
+            infinite: true,
+            adaptiveHeight: true
+          });
+        });
+      </script> -->
+</body>
+</html>

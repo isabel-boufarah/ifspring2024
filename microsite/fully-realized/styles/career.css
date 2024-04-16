@@ -1,0 +1,41 @@
+.albums {
+    font-family: "Josefin Sans", sans-serif;
+
+    img {
+        width: 300px;
+        margin-right: 40px;
+    }
+
+    span {
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.album-flex {
+    display: flex;
+    margin-bottom: 40px;
+    div {
+        z-index: -1;
+    }
+}
+
+.title {
+    font-size: 24px;
+}
+
+audio {
+    margin-top: 20px;
+}
+
+@media (max-width: 776px){
+    .album-flex {
+        flex-direction: column;
+        align-items: center;
+        img {
+            margin-bottom: 20px;
+            margin-right: 0;
+        }
+
+    }
+}
