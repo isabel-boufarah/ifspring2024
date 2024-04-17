@@ -2,7 +2,7 @@ let content = `
 <style>
 nav {
     z-index: 100;
-    
+
     svg {
         display: none;
     }
@@ -39,7 +39,7 @@ nav {
     a:hover {
         color: #F6DE7A;
     }
-    @media (max-width: 860px){
+    @media (max-width: 900px){
         div {
             flex-direction: column;
         }
@@ -48,7 +48,7 @@ nav {
         text-decoration: underline;
     }
 
-    @media (max-width: 683px){
+    @media (max-width: 745px){
         svg {
             display: inline;
         }
@@ -100,7 +100,7 @@ nav {
         </svg></li>  
         <li><a href="index.html">Introduction</a></li>
         <li><a href="life.html">Early Life & Education</a></li>
-        <li><a href="career.html">Career</a></li>
+        <li><a href="career.html">Discography</a></li>
         <li><a href="artistry.html">Artistry</a></li>
         <li><a href="image.html">Public Image</a></li>
         <li><a href="impact.html">Impact</a></li>
