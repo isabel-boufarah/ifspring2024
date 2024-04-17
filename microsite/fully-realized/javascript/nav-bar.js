@@ -91,7 +91,7 @@ nav {
 
 <div> 
 
-    <span>Lana Del Rey</span>
+    <span><a class="logo" href="index.html">Lana Del Rey</a></span>
     <ul>
         <li><svg onclick="openMenu()" width="23" height="16" viewBox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M0 1H23" stroke="#484E5B" stroke-width="2"/>
@@ -133,4 +133,13 @@ removeOpenClass(x);
 // Attach listener function on state changes
 x.addEventListener("change", function() {
     removeOpenClass(x);
+});
+
+// add underline to current page
+$(function(){
+    $('a:not(.logo)').each(function(){
+        if ($(this).prop('href') == window.location.href) {
+            $(this).addClass('current');
+        }
+    });
 });

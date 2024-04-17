@@ -39,7 +39,8 @@ h1 {
     flex-wrap: wrap;
 }
 
-.main-column li {
+/*delete if not using*/
+.influences li {
     list-style: none;
     width: 25%;
     line-height: 24px;
@@ -82,4 +83,17 @@ iframe {
 #iframe-div {
     display: flex;
     justify-content: center;
+}
+
+@media(max-width: 382px){
+    #ldr-artistry2 {
+        width: 230px;
+    }
+}
+
+@media (max-width: 418px){
+    iframe {
+        width: 250px;
+        height: 170px;
+    }
 }
