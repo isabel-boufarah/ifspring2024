@@ -6,7 +6,6 @@ body {
     font-family: "Jomhuria", sans-serif;
     color: #484E5B;
     font-size:18px; 
-    /* font-weight:300px; */
 }
 
 nav {
@@ -44,17 +43,11 @@ p {
 h1 {
     font-size: 80px;
     font-weight: normal;
-
-    /* position: absolute;
-    top: 80px;
-    right: 105px;
-    font-size: 85px; */
 }
 
 h2 {
     font-size: 40px;
     font-weight: normal;
-    /* margin-bottom: 0px; */
     margin-top:72px;
     margin-bottom:10px;
 }
