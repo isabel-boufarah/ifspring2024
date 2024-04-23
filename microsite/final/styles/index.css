@@ -1,0 +1,100 @@
+/* .main-column {
+    margin-left: 15%;
+    
+} */
+
+.bg-image {
+    background-image: url(../images/ldr-home.jpg);
+    height: 544px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.normal-img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 510px){
+    .bg-image{
+        height: 350px;
+    }
+}
+
+.float-quick-facts {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.quick-facts {
+    /* float: right; */
+    height: fit-content;
+    background-color:#484e5b;
+    color:#ceced6;
+    font-family: "Josefin Sans", sans-serif;
+    padding: 10px;
+    border-radius: 8px;
+
+    font-size: 16px;
+    margin-left: 40px;
+
+    margin-top:40px;
+    width: 30%;
+
+    td:nth-child(odd){
+        padding-right: 16px;
+        text-align: right;
+    }
+
+    td {
+        padding-bottom: 12px;
+        vertical-align: top;
+    }
+    .last-row {
+        padding-bottom: 0;
+    }
+
+    td:nth-child(even){
+        font-weight: 300;
+    }
+}
+
+#introTitle {
+    margin-top: 48px;
+    margin-bottom: 8px;
+}
+
+/* @media (max-width: 1400px){
+    .main-column{
+        width:50%;
+    }
+} */
+
+.main-column {
+    max-width: 1224px;
+}
+
+.content {
+    width: 80%;
+}
+
+@media (max-width: 1023px) {
+    .float-quick-facts {
+        flex-direction: column;
+    }
+
+    .quick-facts {
+        margin-left: auto;
+        margin-right: auto;
+        width:fit-content;
+    }
+
+    .content {
+        width:auto;
+    }
+}
+
+.margin-adjust {
+    margin-top:56px;
+}
